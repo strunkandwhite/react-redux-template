@@ -1,5 +1,5 @@
 [x] Running, configured app
 [x] Component w/ stylesheet
-[ ] Redux
+[x] Redux
 [ ] Tests
 [ ] THE CREAM OF THE CROP
