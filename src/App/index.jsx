@@ -1,5 +1,7 @@
 import React from 'react'
 
-export default function App() {
-  return <div>This is a starter app</div>
-}
+import Title from 'Src/components/Title'
+
+const App = () => <Title title="hello" />
+
+export default App
