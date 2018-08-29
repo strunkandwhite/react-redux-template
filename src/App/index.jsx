@@ -29,6 +29,7 @@ class App extends Component {
     const {
       user: { name },
     } = this.props
+
     return <Title title={`Hello ${name}`} />
   }
 }
