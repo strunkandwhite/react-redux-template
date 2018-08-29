@@ -10,6 +10,7 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': 'error',
+    'import/prefer-default-export': 0,
     'jsx-a11y/label-has-for': [
       2,
       {
