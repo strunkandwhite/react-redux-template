@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "node"
+jobs:
+  include:
+    stage: test
+      script: yarn test --coverage
+      after_success: 'yarn coveralls'
+    stage: build
+      script: yarn build
