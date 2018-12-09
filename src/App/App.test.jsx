@@ -1,10 +1,11 @@
 import React from 'react'
 import { expect } from 'chai'
-import { shallow, mount } from 'enzyme'
+import { mount } from 'enzyme'
+import { Provider } from 'react-redux'
 import configureStore from 'redux-mock-store'
 
 import Title from 'Src/components/Title'
-import App from './'
+import App from '.'
 
 describe('<App />', () => {
   let props
@@ -13,7 +14,11 @@ describe('<App />', () => {
 
   const AppWrapper = () => {
     if (!wrapper) {
-      wrapper = mount(<App store={store} {...props} />)
+      wrapper = mount(
+        <Provider store={store}>
+          <App {...props} />
+        </Provider>,
+      )
     }
 
     return wrapper
