@@ -3,4 +3,4 @@
 
 ## react-redux-template
 
-Simple React/Redux application template, with up-to-date dependencies for transpiling, linting, and prettification.
+Simple React/Redux application template, with up-to-date dependencies for transpiling, linting, CI/CD, code coverage reporting, and prettification.
