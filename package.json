@@ -10,7 +10,8 @@
     "start": "NODE_ENV=development webpack-serve --config ./config/webpack.dev.js",
     "test": "jest --config=jest.config.js",
     "test:watch": "jest --config=jest.config.js --watch",
-    "test:coverage": "jest --config=jest.config.js --coverage --collectCoverageFrom=src/**/*.{js,jsx}"
+    "test:coverage": "jest --config=jest.config.js --coverage --collectCoverageFrom=src/**/*.{js,jsx}",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -27,6 +28,7 @@
     "babel-loader": "^8.0.0",
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
+    "coveralls": "^3.0.2",
     "css-hot-loader": "^1.3.9",
     "css-loader": "^0.28.11",
     "eslint": "^5.4.0",
