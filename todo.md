@@ -4,5 +4,5 @@
 [x] Tests
 [x] THE CREAM OF THE CROP
 [x] Add format command
-[ ] Remove libs and bower references
+[x] Remove libs and bower references
 [ ] webpack-dev-serve?

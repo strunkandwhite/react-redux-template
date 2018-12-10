@@ -36,7 +36,7 @@ module.exports = {
     filename: '[name].bundle.js',
   },
   resolve: {
-    modules: ['src', 'libs', 'node_modules'],
+    modules: ['src', 'node_modules'],
     extensions: ['.js', '.jsx', '.css', '.scss'],
     alias: {
       Src: path.resolve(__dirname, '../src'),
@@ -97,7 +97,7 @@ module.exports = {
               {
                 loader: 'sass-loader',
                 options: {
-                  includePaths: ['src', 'node_modules', 'bower_components'],
+                  includePaths: ['src', 'node_modules'],
                 },
               },
               'postcss-loader',
