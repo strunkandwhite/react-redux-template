@@ -11,7 +11,8 @@
     "test": "jest --config=jest.config.js",
     "test:watch": "jest --config=jest.config.js --watch",
     "test:coverage": "jest --config=jest.config.js --coverage --collectCoverageFrom=src/**/*.{js,jsx}",
-    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+    "format": "prettier --write 'src/**/*.js*' --config .prettierrc"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
