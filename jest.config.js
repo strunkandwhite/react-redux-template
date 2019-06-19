@@ -11,6 +11,6 @@ module.exports = {
     '/node_modules/',
     '/test-helpers/',
   ],
-  setupFilesAfterEnv: '<rootDir>/src/test-helpers/setup-tests.js',
+  setupFilesAfterEnv: ['<rootDir>/src/test-helpers/setup-tests.js'],
   transformIgnorePatterns: ['<rootDir>/node_modules/(?!lodash-es)'],
 }
