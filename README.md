@@ -1,5 +1,5 @@
-[![Coverage Status](https://coveralls.io/repos/github/jacklenehan/react-redux-template/badge.svg?branch=master)](https://coveralls.io/github/jacklenehan/react-redux-template?branch=master)
-[![Build Status](https://travis-ci.org/jacklenehan/react-redux-template.svg?branch=master)](https://travis-ci.org/jacklenehan/react-redux-template) [![Greenkeeper badge](https://badges.greenkeeper.io/jacklenehan/react-redux-template.svg)](https://greenkeeper.io/)
+[![Coverage Status](https://coveralls.io/repos/github/strunkandwhite/react-redux-template/badge.svg?branch=master)](https://coveralls.io/github/strunkandwhite/react-redux-template?branch=master)
+[![Build Status](https://travis-ci.org/strunkandwhite/react-redux-template.svg?branch=master)](https://travis-ci.org/strunkandwhite/react-redux-template) [![Greenkeeper badge](https://badges.greenkeeper.io/strunkandwhite/react-redux-template.svg)](https://greenkeeper.io/)
 
 ## react-redux-template
 
